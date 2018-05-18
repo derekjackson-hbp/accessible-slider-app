@@ -54,15 +54,15 @@ height:1px;
 
 <div class="slidecontainer">
 
-  <label for="in">Default range slider:</label>
+  <label for="in">value one:</label>
   <input id="in" type="range" min="1" max="100" value="50">
   <p id="val" aria-label="units">50</p>
 
-  <label for="const">Default range slider:</label>
+  <label for="const">value two:</label>
   <input id="const" type="range" min="1" max="100" value="50">
   <p id="val2" aria-label="units">50</p>
 
-   <label for="zip">Default range slider:</label>
+   <label for="zip">value three:</label>
   <input id="zip" type="range" min="1" max="100" value="50">
   <p id="val3" role="presentation" aria-label="units">50</p>
 
@@ -74,11 +74,11 @@ height:1px;
     <p id="talk0"></p>
 </div>
 
-    <h3>add</h3>
+    <h3 id="n1">add</h3>
     
-    <p id='add' style="padding:.5rem; border:black solid 1px;background-color: #CCFFF7" aria-label="New total">150</p>
-    <h3>constant</h3>
-    <p id='nada' style="padding:.5rem; border:black solid 1px;background-color: #C3FFF7" aria-label="Sometimes Constant">15</p>
+    <p id='add' aria-label="add">150</p>
+    <h3 id="n2">constant</h3>
+    <p id='nada' aria-labelledby="n2" style="padding:.5rem; border:black solid 1px;background-color: #C3FFF7">15</p>
   </figure>
   
 </div>
